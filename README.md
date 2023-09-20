@@ -26,5 +26,8 @@ $ git clone https://github.com/castrogr/aplicativo.git
 click the executable claim
 ### 3. Tester. 
 The app will ask you to open the files to process. There are two excel files to test the program, the one that contains the data of the reciepts, testfile.xlsx ("abra el archivo excel a evaluar") and the one that contains the reciepts that were already regularized ("Cargue el archivo de los recibos reclamados de Cosesa")
-### Saving the results
+### 4. Saving the results
 Once processed, you can save the results files, one contains the statistic data with the marked discrepancies, another contains the recietps in wich the commission paid is lower that the agreed and the amount to claim. And the last one contains the reciepts that were paid according to agreed commission
+
+
+NOTE: The application and the Documentation are in spanish as the client was spanish, I will update the documentation in english soon
