@@ -14,7 +14,7 @@ Then, it crosses the information from the receipts that were already claimed and
 
 ## Requirements 
 
-This project is written in Python language and thus needs the Python3 interpreter. It also uses the following modules: Pandas, Pillow, requests, XlsxWriter and openpylx
+This project is written in Python language and thus needs the Python3 interpreter. It also uses the following modules: Pandas, requests, XlsxWriter and openpylx
 
 ## Instructions
 
@@ -23,9 +23,14 @@ This project is written in Python language and thus needs the Python3 interprete
 $ git clone https://github.com/castrogr/aplicativo.git
 ```
 ### 2.Executing  
-click the executable claim
+```shell
+$ cd claimer_source_code
+$ python3 claim.py
+```
 ### 3. Tester. 
-The app will ask you to open the files to process. There are two excel files to test the program, the one that contains the data of the reciepts, testfile.xlsx ("abra el archivo excel a evaluar") and the one that contains the reciepts that were already regularized ("Cargue el archivo de los recibos reclamados de Cosesa")
+The app will ask you to open the files to process. 
+	1. "Abra el archivo excel a evaluar": use testfile.xlsx
+ 	2. "Cargue el archivo de los recibos reclamados de Cosesa": use testcosesa.xlsx
 ### 4. Saving the results
 Once processed, you can save the results files, one contains the statistic data with the marked discrepancies, another contains the recietps in wich the commission paid is lower that the agreed and the amount to claim. And the last one contains the reciepts that were paid according to agreed commission
 
