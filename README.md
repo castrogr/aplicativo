@@ -28,8 +28,8 @@ $ cd claimer_source_code
 $ python3 claim.py
 ```
 ### 3. Tester. 
-The app will ask you to open the files to process. 
-	1. "Abra el archivo excel a evaluar": use testfile.xlsx
+The app will ask you to open the files to process. <br>
+	1. "Abra el archivo excel a evaluar": use testfile.xlsx <br>
  	2. "Cargue el archivo de los recibos reclamados de Cosesa": use testcosesa.xlsx
 ### 4. Saving the results
 Once processed, you can save the results files, one contains the statistic data with the marked discrepancies, another contains the recietps in wich the commission paid is lower that the agreed and the amount to claim. And the last one contains the reciepts that were paid according to agreed commission
