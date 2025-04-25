@@ -2,7 +2,7 @@
 
 ## About
 
-This project is an application software that I was for an insurance brokerage.  The company needed an easy to use app that processed the information of their reciepts  and check if the payments made by the insurance companies to the brokerage were correct. The insurance policyholders would pay the insurance cost to the insurance company and the insurance company would pay a percentaje of said insurance cost to the brokers. This percentage would depend on the product and the insurance seniority.
+This project is an application software that I developed for an insurance brokerage.  The company needed an easy to use app that processed the information of their reciepts  and check if the payments made by the insurance companies to the brokerage were correct. The insurance policyholders would pay the insurance cost to the insurance company and the insurance company would pay a percentaje of said insurance cost to the brokers. This percentage would depend on the product and the insurance seniority.
 
 I encountered a few issues:
 	- The information stored in the database of the insurance brokerage was incomplete and the data of the percentage from the insurance cost that the brokers should get was missing in manu products.
